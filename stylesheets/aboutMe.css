@@ -1,0 +1,21 @@
+h1 {
+  color: #fffffb;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: #083efd;
+}
+h4 {
+  color: #fffffb;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  color: #fffffb;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+li {
+  color: yellow;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
