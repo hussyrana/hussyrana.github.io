@@ -14,8 +14,25 @@ p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+p::first-letter {
+  font-size: 2em;
+}
+span {
+  color: red;
+}
 li {
   color: yellow;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+div {
+  display: block;
+  align-items: baseline;
+}
+a {
+  text-decoration: none;
+  color: yellow;
+}
+a:hover {
+  text-decoration: underline;
 }
