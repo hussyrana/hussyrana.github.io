@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Images/background.png");
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8pt;
+}
+#banner {
+  background-image: url("./Images/bannerbg.png");
+}
+h1 {
+  font-size: 24pt;
+  text-align: center;
+  text-shadow: 3px 3px #999999;
+}
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px gray solid;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.rightside {
+  float: right;
+  width: 244px;
+  background-color: #a2b964;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8pt;
+}
+.leftside {
+  float: left;
+  width: 556px;
+}
+#rottenheader {
+  background-image: url("./Images/rbg.png");
+  font-size: 48pt;
+  font-weight: bold;
+  color: red;
+}
+#rottenheader > img {
+  vertical-align: bottom;
+}
+.leftReviews {
+  width: 47%;
+  float: left;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.rightreviews {
+  width: 47%;
+  float: right;
+  margin-right: 2%;
+}
+.review {
+  font-size: 8pt;
+  font-weight: bold;
+  background-color: #e8dc9b;
+  border: 2px gray solid;
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 10px;
+}
+.review > p > img {
+  vertical-align: middle;
+}
+.critic > p > img {
+  float: left;
+  margin: 5px;
+  text-align: justify;
+}
+.critic {
+  margin-bottom: 20pt;
+}
+dt,
+dd {
+  margin-bottom: 10pt;
+}
+dl {
+  padding-left: 10pt;
+}
+ul {
+  list-style-type: none;
+  text-indent: 0%;
+}
+.footer {
+  background-color: #a2b964;
+  clear: both;
+  text-align: center;
+  padding: 5px;
+}
+#validators {
+  float: right;
+  opacity: 0.5;
+}
