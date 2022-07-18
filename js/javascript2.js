@@ -65,26 +65,26 @@ const person2 = {
   },
 };
 
-const student = Object.create(person2);
-student.major = "JavaScript";
-student.name = "hassan";
-student.greeting = function () {
+const studen = Object.create(person2);
+studen.major = "JavaScript";
+studen.name = "hassan";
+studen.greeting = function () {
   console.log(`Hey, my name is ${this.name} and I am studying ${this.major}`);
 };
 
-const professor = Object.create(person2);
-professor.name = "ali";
-professor.age = 29;
-professor.department = "CS";
-professor.greeting = function () {
+const professo = Object.create(person2);
+professo.name = "ali";
+professo.age = 29;
+professo.department = "CS";
+professo.greeting = function () {
   console.log(
     `Good day,my name is ${this.name} and I am in the ${this.department} department.`
   );
 };
-student.greeting();
-student.solute();
-professor.greeting();
-professor.solute();
+studen.greeting();
+studen.solute();
+professo.greeting();
+professo.solute();
 
 function person(name, age) {
   this.name = name;
